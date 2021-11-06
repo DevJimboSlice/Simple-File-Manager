@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.simplemobiletools.filemanager.pro.fragments.ItemsFragment xmlns:android="http://schemas.android.com/apk/res/android"
+<dev.jimboslice.filemanager.fragments.ItemsFragment xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/items_fragment"
     android:layout_width="match_parent"
@@ -93,4 +93,4 @@
             android:src="@drawable/ic_plus_vector" />
 
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
-</com.simplemobiletools.filemanager.pro.fragments.ItemsFragment>
+</dev.jimboslice.filemanager.fragments.ItemsFragment>

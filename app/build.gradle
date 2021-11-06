@@ -9,15 +9,15 @@ if (keystorePropertiesFile.exists()) {
 }
 
 android {
-    compileSdkVersion 29
+    compileSdkVersion 30
     buildToolsVersion "29.0.3"
 
     defaultConfig {
-        applicationId "com.simplemobiletools.filemanager.pro"
+        applicationId "dev.jimboslice.filemanager"
         minSdkVersion 21
-        targetSdkVersion 29
+        targetSdkVersion 30
         versionCode 110
-        versionName "6.10.1"
+        versionName "1.0.0"
         multiDexEnabled true
         setProperty("archivesBaseName", "file-manager")
         vectorDrawables.useSupportLibrary = true
@@ -64,4 +64,5 @@ dependencies {
     implementation 'com.alexvasilkov:gesture-views:2.5.2'
     implementation 'androidx.documentfile:documentfile:1.0.1'
     implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.1.0'
+    implementation 'androidx.biometric:biometric-ktx:1.1.0'
 }

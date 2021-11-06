@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.simplemobiletools.filemanager.pro.fragments.RecentsFragment xmlns:android="http://schemas.android.com/apk/res/android"
+<dev.jimboslice.filemanager.fragments.RecentsFragment xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/recents_fragment"
     android:layout_width="match_parent"
@@ -35,4 +35,4 @@
             android:scrollbars="none"
             app:layoutManager="com.simplemobiletools.commons.views.MyGridLayoutManager" />
     </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
-</com.simplemobiletools.filemanager.pro.fragments.RecentsFragment>
+</dev.jimboslice.filemanager.fragments.RecentsFragment>
