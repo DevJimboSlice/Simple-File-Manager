@@ -9,12 +9,12 @@ if (keystorePropertiesFile.exists()) {
 }
 
 android {
-    compileSdkVersion 30
+    compileSdkVersion compileSdk_version
 
     defaultConfig {
         applicationId "dev.jimboslice.filemanager"
-        minSdkVersion 21
-        targetSdkVersion 30
+        minSdkVersion minSdk_version
+        targetSdkVersion targetSdk_version
         versionCode 1
         versionName "0.0.1"
         multiDexEnabled true
