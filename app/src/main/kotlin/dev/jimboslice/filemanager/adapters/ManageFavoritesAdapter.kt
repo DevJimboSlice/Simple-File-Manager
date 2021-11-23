@@ -12,8 +12,10 @@ import dev.jimboslice.filemanager.extensions.config
 import kotlinx.android.synthetic.main.item_manage_favorite.view.*
 import java.util.*
 
-class ManageFavoritesAdapter(activity: BaseSimpleActivity, var favorites: ArrayList<String>, val listener: RefreshRecyclerViewListener?,
-                             recyclerView: MyRecyclerView, itemClick: (Any) -> Unit) : MyRecyclerViewAdapter(activity, recyclerView, null, itemClick) {
+class ManageFavoritesAdapter(
+    activity: BaseSimpleActivity, var favorites: ArrayList<String>, val listener: RefreshRecyclerViewListener?,
+    recyclerView: MyRecyclerView, itemClick: (Any) -> Unit
+) : MyRecyclerViewAdapter(activity, recyclerView, itemClick) {
 
     private val config = activity.config
 

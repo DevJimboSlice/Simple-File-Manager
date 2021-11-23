@@ -24,7 +24,7 @@ import kotlinx.android.synthetic.main.item_file_dir_list.view.*
 import java.util.*
 
 class DecompressItemsAdapter(activity: SimpleActivity, var listItems: MutableList<ListItem>, recyclerView: MyRecyclerView, itemClick: (Any) -> Unit) :
-        MyRecyclerViewAdapter(activity, recyclerView, null, itemClick) {
+    MyRecyclerViewAdapter(activity, recyclerView, itemClick) {
 
     private lateinit var fileDrawable: Drawable
     private lateinit var folderDrawable: Drawable
